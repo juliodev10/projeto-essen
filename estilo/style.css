@@ -127,3 +127,50 @@ main {
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+main > h1{
+    color: var(--cor4);
+    font-family: var(--fonte-subtitulo);
+    font-weight: normal;
+    font-size: 2.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+main img{
+    width: 100%;
+}
+
+article > h1 {
+    color: var(--cor4);
+    font-family: var(--fonte-subtitulo);
+    font-weight: normal;
+    font-size: 2.5em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.407);
+}
+
+aside > h3{
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px; 
+}
