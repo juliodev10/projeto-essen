@@ -6,8 +6,8 @@
     --cor0: #89D99D;
     --cor1: #3B8C6E;
     --cor2: #1E5959;
-    --cor3: #0B2B40;
-    --cor4: #164773;
+    --cor3: #164773;  
+    --cor4: #0B2B40;  
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-paixao: "Passion One", sans-serif;
@@ -22,6 +22,11 @@
     padding: 0px;
 }
 
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
@@ -32,6 +37,7 @@ header {
     min-height: 150px;
     text-align: center;
     padding-top: 10px;
+    margin: auto;
 }
     img {
         max-width: 100%;
@@ -167,6 +173,50 @@ aside > h3{
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
 }
+
+    #num {
+        text-align: left;
+    }
+    
+    table{
+        color: var(--cor4);
+        width: 600px;   
+        border-collapse: collapse;
+        margin: auto;
+    
+    }
+    td, th{
+        border: 2px solid black;
+        padding: 0px;
+        
+    }
+    caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: var(--cor2);
+    }
+    thead, tfoot{
+        background-color: var(--cor3);
+        color: var(--cor3);
+        
+    }
+
+    thead > tr > th{/*pra colar o titulo*/
+        position: sticky;
+        top: -1px;
+        background-color: var(--cor1);
+        
+    }
+    tbody > tr:nth-child(2n){
+        background-color: var(--cor0);
+        
+    }
+    
+    td.num{
+        text-align: right;
+    }
+
 
 footer{
     background-color: var(--cor4);
