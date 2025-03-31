@@ -230,6 +230,14 @@ aside > h3{
         text-align: right;
     }
 
+    #centro3 {
+        width:500px;
+		height:auto;
+		margin: auto;
+		overflow: hidden;
+        padding: 10px;
+    }
+
 
 footer{
     background-color: var(--cor4);
