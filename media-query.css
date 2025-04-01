@@ -2,18 +2,13 @@
 
 /*typical device breackpoints*/
 
-@media screen and (min-width: 768px) {
-    span#burguer {
-        display: none;
-    }
-    menu {
-        display: block;
-    }
-    menu > ul > li {
-        display: inline-block;/*um do lado do outro*/
+@media screen and (max-width: 768px) {
+    
+    header {
+       width: 90vw;
     }
 
-    main {
-        width: 768px;
+    header {
+        font-size: 2em;
     }
 }
