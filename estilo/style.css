@@ -150,6 +150,12 @@ main img{
     width: 100%;
 }
 
+li {
+    list-style-type: none;
+
+}   
+
+
 li#tri::before {
     content: '\1F387';
 
@@ -165,7 +171,7 @@ li#jos::before {
     
 article > h1 {
     color: var(--cor2);
-    font-family: var(--fonte-subtitulo);
+    font-family: var(--fonte-subtitulo);    
     font-weight: normal;
     font-size: 2.5em;
     font-weight: normal;
