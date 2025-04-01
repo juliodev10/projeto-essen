@@ -4,11 +4,14 @@
 
 @media screen and (max-width: 768px) {
     
-    header {
+    header h1{
        width: 90vw;
+       font-size: 2em;
+
     }
 
-    header {
-        font-size: 2em;
+    main{
+        width: 90vw;
     }
-}
+
+    }

@@ -1,0 +1,94 @@
+@media screen and (max-width: 600px) {
+
+    header h1 {
+        font-size: 2em;
+        margin-bottom: 5px;
+    }
+
+    header nav a {
+        font-size: 0.8em;
+        padding: 3px;
+        margin-left: 5px;
+        margin-right: 3px;
+    }
+
+    .minha-div {
+        height: 50px;
+        width: 50px;
+    }
+
+    header p {
+        font-size: 0.8em;
+        max-width: 300px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.299);
+    }
+
+    header h2 {
+    font-size: 1.8em;
+    max-width: 400px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-shadow: 1.5px 1.5px 0.5px rgba(0, 0, 0, 0.748);
+    }
+
+    header h3 {
+    font-size: 0.5em;
+    }
+
+    nav {
+        padding: 5px;
+        box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.786);
+        font-size: 1.05em;
+    }
+
+    nav a {
+        padding: 5px;
+    }
+    main {
+        min-width: 150px;
+        max-width: 300px;
+        padding: 7px;
+
+    }
+
+    main h1 {
+        font-size: 1.3em;
+
+    }
+
+    main ul li {
+        font-size: 0.8em;
+    }
+    main ul li a {
+        font-size: 1em;
+    }
+
+    * p {
+        font-size: 0.8em;
+    }
+
+    * h3 {
+        color: var(--cor2);
+    }
+
+    article h1 {
+        font-size: 1.5em;
+
+    }
+   
+    table {
+        width: 300px;   
+
+    }
+
+    #centro3 {
+        width: 295px;
+}
+
+* h4 {
+    color: var(--cor1);
+}
+}
