@@ -8,16 +8,19 @@
     --cor2: #1E5959;
     --cor3: #164773;  
     --cor4: #0B2B40;  
+
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-paixao: "Passion One", sans-serif;
     --fonte-titulo: "Rubik", sans-serif;
     --fonte-subtitulo: "Bebas Neue", sans-serif;
     --fonte-salmo: "Tangerine", cursive;
+
 }
 
 * {
     margin: 0px;
     padding: 0px;
+
 }
 
 h1 {
@@ -32,20 +35,16 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
-    /*min-height: 150px;*/
-    /*text-align: center;*/
-    /*padding-top: 10px;*/
-    /*margin: auto;*/
-}
-
-header > p, h2, h3 {
+    min-height: 150px;
     text-align: center;
-
+    padding-top: 10px;
+    margin: auto;
 }
-   img {
+    img {
         max-width: 100%;
         max-height: 100%;
-        position: relative;    
+        position: relative;
+        
     }
     
     .minha-div {
@@ -69,7 +68,7 @@ header > h1 {
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.53);
-   margin: auto;
+    margin: auto;
 }
 header > p {
     color: white;
@@ -106,62 +105,24 @@ header > h3 {
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.897);
 }
 
-span#burguer {
-    background-color: var(--cor4);
-    color: var(--cor1);
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.786)
-
-}
-
-span#burguer:hover {
-    background-color: var(--cor1);
-    color: var(--cor4);
-}
-
-menu {
-    display: none;
-}
-
-menu > ul {
-    list-style-type: none;/*tira bolinhas*/
-}
-
-menu > ul> li > a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    background-color: var(--cor3);
-    color: var(--cor1);
-    border-top: 2px solid black;
-
-}
-
-menu > ul > li > a:hover {
-    background-color: var(--cor0);
-}
-
-/*nav {
+nav {
     background-color: var(--cor4);
     padding: 10px;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.786);
-}*/
+}
 
-/*nav > a{
+nav > a{
     color: var(--cor1);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: .5s;/*leva 1 seg de transição*/  
-
-/*nav > a:hover{
+    transition-duration: .5s;/*leva 1 seg de transição*/   
+}
+nav > a:hover{
     background-color: var(--cor1);
-    color: var(--cor4);*/
+    color: var(--cor4);
+}
 
 main {
     min-width: 300px;
@@ -277,7 +238,6 @@ aside > h3{
 		overflow: hidden;
         padding: 10px;
     }
-
 
 footer{
     background-color: var(--cor4);
