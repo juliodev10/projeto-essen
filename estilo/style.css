@@ -20,7 +20,10 @@
 * {
     margin: 0px;
     padding: 0px;
+}
 
+p {
+    text-align: justify;
 }
 
 h1 {
